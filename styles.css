@@ -1,4 +1,48 @@
 body {
-	background-color:blue;
-	
+  background-color: green;
+}
+
+
+#road {
+  border: 3px solid red;
+  background-color: black;
+  color: white;
+  text-shadow: red 3px 3px;
+  font-size: 2em;
+  font-family: Times;
+  padding: 10px;
+  margin: 10px;
+  width: 50%;
+}
+
+#list {
+	border: 100px;
+	background-color: brown;
+	color: orange;
+	text-shadow: black 3px 3px;
+	font-weight: bold;
+	font-size: 2em;
+	font-family: Times;
+	padding: 15px;
+	margin: 10px;
+	width: 200px;
+}
+
+section#contact-info {
+  font-family: "Helvetica", serif;
+  font-size: 5em;
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  text-align: center;
+  width: 100%;
+  padding: 20px;
+}
+
+section#contact-info {
+  border-right: none;
+}
+
+.folk{
+  font-size: 1em;
 }
