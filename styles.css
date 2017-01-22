@@ -1,4 +1,26 @@
-body {
-	background-color:blue;
-	
+#road {
+  border: 3px dotted pink;
+  background-color: purple;
+  color: white;
+  text-shadow: orange 3px 3px;
+  font-weight: bold;
+  font-variant: small-caps;
+  font-size: 2em;
+  font-family: Helvetica;
+  padding: 10px;
+  margin: 10px;
+  width: 50%;
+}
+
+#list {
+	border: 100px;
+	background-color: green;
+	color: red;
+	text-shadow: white 3px 3px;
+	font-weight: bold;
+	font-size: 2em;
+	font-family: Times;
+	padding: 15px
+	margin: 10px;
+	width: 200px;
 }
