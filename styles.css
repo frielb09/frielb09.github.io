@@ -1,5 +1,5 @@
 body {
-  max-width: 100%;
+  max-width: 960%;
   background-color: green;
 }
 
@@ -40,9 +40,6 @@ section#contact-info {
   padding: 20px;
 }
 
-section#contact-info {
-  border-right: none;
-}
 
 .folk{
   font-size: 1em;
@@ -59,8 +56,8 @@ a.demo:visited {
 
 
 @media screen and (max-width: 700px) {
-section#images {
-    
+section#list {
+    background-color: white;
   }
 }
 
