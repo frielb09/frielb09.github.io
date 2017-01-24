@@ -40,6 +40,9 @@ section#contact-info {
   padding: 20px;
 }
 
+.wander {
+  background: url("file://PATH-TO/lane9.jpg") repeat;
+}
 
 .folk{
   font-size: 1em;
@@ -49,10 +52,17 @@ section#bird {
   width: 58%;
 }
 
-a.demo:visited {
+a.demo:visited, a.demo:hover {
   color: red;
   border: 2px ;
 }
+
+section#home {
+  background-image:url('../images/lane9.jpg');
+  width: 50%
+  height:50%;
+}
+
 
 
 @media screen and (max-width: 700px) {
